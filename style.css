@@ -1,0 +1,62 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container to hold the content */
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 260px;  /* Decreased width */
+    text-align: center;
+  }
+  
+  /* Heading style */
+  h1 {
+    margin-bottom: 10px;  /* Reduced space */
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results section */
+  .result {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 1.1em;
+  }
+  
